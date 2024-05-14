@@ -5,3 +5,6 @@ Automation framework for all types of Web Elements Testing with PyTest-Selenium 
 Python3
 At least one of these browsers installed [Chrome, Firefox]
 
+TO DO
+Add reports
+To automate all webelement actions in the website
