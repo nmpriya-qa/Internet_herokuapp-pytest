@@ -1,68 +1,142 @@
-WebElement found with locator value Checkboxes using locatorType link
-Clicked on WebElement with locator value Checkboxes using locatorType link
-WebElement found with locator value Checkboxes using locatorType link
-Clicked on WebElement with locator value Checkboxes using locatorType link
-WebElement found with locator value Checkboxes using locatorType link
-Clicked on WebElement with locator value Checkboxes using locatorType link
-WebElement found with locator value Checkboxes using locatorType link
-Clicked on WebElement with locator value Checkboxes using locatorType link
-14/05/24 02:46:37 PM Tuesday - Basepage - INFO : WebElement found with locator value Checkboxes using locatorType link
-14/05/24 02:46:38 PM Tuesday - Basepage - INFO : Clicked on WebElement with locator value Checkboxes using locatorType link
-14/05/24 02:46:46 PM Tuesday - Basepage - INFO : WebElement found with locator value Checkboxes using locatorType link
-14/05/24 02:46:46 PM Tuesday - Basepage - INFO : Clicked on WebElement with locator value Checkboxes using locatorType link
-14/05/24 02:48:28 PM Tuesday - Basepage - INFO : WebElement found with locator value Checkboxes using locatorType link
-14/05/24 02:48:29 PM Tuesday - Basepage - INFO : Clicked on WebElement with locator value Checkboxes using locatorType link
-14/05/24 02:48:38 PM Tuesday - Basepage - INFO : WebElement found with locator value Checkboxes using locatorType link
-14/05/24 02:48:39 PM Tuesday - Basepage - INFO : Clicked on WebElement with locator value Checkboxes using locatorType link
-14/05/24 04:32:32 PM Tuesday - Basepage - ERROR : WebElement not found with locator value Basic Auth using locatorType link
-14/05/24 04:39:08 PM Tuesday - BasicAuth - ERROR : WebElement not found with locator value Basic Auth using locatorType link
-14/05/24 04:42:28 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 04:42:28 PM Tuesday - BasicAuth - INFO : Got the text Basic Auth from WebElement with locator value Basic Auth using locatorType link
-14/05/24 04:42:28 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 04:42:28 PM Tuesday - BasicAuth - INFO : Clicked on WebElement with locator value Basic Auth using locatorType link
-14/05/24 04:42:28 PM Tuesday - BasicAuth - INFO : New URL formed ishttps://admin:admin@the-internet.herokuapp.comBasic Auth
-14/05/24 04:44:24 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 04:44:24 PM Tuesday - BasicAuth - INFO : Got the text Basic Auth from WebElement with locator value Basic Auth using locatorType link
-14/05/24 04:44:24 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 04:44:24 PM Tuesday - BasicAuth - INFO : Clicked on WebElement with locator value Basic Auth using locatorType link
-14/05/24 04:44:24 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/Basic Auth
-14/05/24 04:46:11 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 04:46:11 PM Tuesday - BasicAuth - INFO : Got the text Basic Auth from WebElement with locator value Basic Auth using locatorType link
-14/05/24 04:46:11 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 04:46:12 PM Tuesday - BasicAuth - INFO : Clicked on WebElement with locator value Basic Auth using locatorType link
-14/05/24 04:46:12 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/Basic Auth
-14/05/24 04:47:50 PM Tuesday - BasicAuth - ERROR : WebElement not found with locator value Basic Auth using locatorType link
-14/05/24 06:34:53 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 06:34:53 PM Tuesday - BasicAuth - INFO : Got the text Basic Auth from WebElement with locator value Basic Auth using locatorType link
-14/05/24 06:34:53 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 06:34:54 PM Tuesday - BasicAuth - INFO : Clicked on WebElement with locator value Basic Auth using locatorType link
-14/05/24 06:34:54 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/Basic Auth
-14/05/24 06:39:51 PM Tuesday - BasicAuth - ERROR : WebElement not found with locator value Basic Auth using locatorType link
-14/05/24 07:16:51 PM Tuesday - BasicAuth - ERROR : WebElement not found with locator value Basic Auth using locatorType link
-
-14/05/24 07:20:46 PM Tuesday - BasicAuth - ERROR : WebElement not found with locator value Basic Auth using locatorType link
-14/05/24 07:20:46 PM Tuesday - BasicAuth - INFO : None
-14/05/24 07:20:46 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/None
-14/05/24 07:22:15 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 07:22:15 PM Tuesday - BasicAuth - INFO : https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:22:15 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:23:12 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 07:23:12 PM Tuesday - BasicAuth - INFO : https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:23:12 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:23:51 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 07:23:51 PM Tuesday - BasicAuth - INFO : https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:23:51 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:26:46 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 07:26:46 PM Tuesday - BasicAuth - INFO : https://the-internet.herokuapp.com/basic_auth
-14/05/24 07:26:46 PM Tuesday - BasicAuth - INFO : ['https:', 'the-internet.herokuapp.com/basic_auth']
-14/05/24 07:26:46 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/https://the-internet.herokuapp.com/basic_auth
-14/05/24 08:30:39 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 08:30:39 PM Tuesday - BasicAuth - INFO : https://the-internet.herokuapp.com/basic_auth
-14/05/24 08:30:39 PM Tuesday - BasicAuth - INFO : ['https:', 'the-internet.herokuapp.com/basic_auth']
-14/05/24 08:30:39 PM Tuesday - BasicAuth - INFO : New URL formed is https://admin:admin@the-internet.herokuapp.com/basic_auth
-14/05/24 08:44:32 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 08:44:32 PM Tuesday - BasicAuth - INFO : URL for Basic Auth with credentials is https://admin:admin@the-internet.herokuapp.com/basic_auth
-14/05/24 08:47:49 PM Tuesday - BasicAuth - INFO : WebElement found with locator value Basic Auth using locatorType link
-14/05/24 08:47:49 PM Tuesday - BasicAuth - INFO : URL for Basic Auth with credentials is https://admin:admin@the-internet.herokuapp.com/basic_auth
-14/05/24 08:47:49 PM Tuesday - BasicAuth - INFO : WebElement found with locator value //h3[text()='Basic Auth'] using locatorType xpath
-14/05/24 08:47:49 PM Tuesday - BasicAuth - INFO : Got the text Basic Auth from WebElement with locator value //h3[text()='Basic Auth'] using locatorType xpath
+20/05/24 11:03:14 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:03:14 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:04:10 PM Monday - AddorRemoveElements - INFO : Web Element is displayed
+20/05/24 11:06:47 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - TestBasicAuth - INFO : Delete button count is3
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:48 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:59 PM Monday - AddorRemoveElements - ERROR : WebElement not found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:06:59 PM Monday - AddorRemoveElements - ERROR : Unable to Click on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:07:51 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - TestBasicAuth - INFO : Delete button count is3
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:07:52 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:08:03 PM Monday - AddorRemoveElements - ERROR : WebElement not found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:08:03 PM Monday - AddorRemoveElements - ERROR : Unable to Click on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : add: 2
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : add: 3
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : add: 4
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : Delete button count is3
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : delete: 3
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : delete: 2
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:42 PM Monday - TestBasicAuth - INFO : delete: 1
+20/05/24 11:09:53 PM Monday - AddorRemoveElements - ERROR : WebElement not found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:09:53 PM Monday - AddorRemoveElements - ERROR : Unable to Click on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:10:42 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - TestBasicAuth - INFO : add: 1
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - TestBasicAuth - INFO : add: 2
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - TestBasicAuth - INFO : add: 3
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:10:43 PM Monday - TestBasicAuth - INFO : add: 4
+20/05/24 11:10:43 PM Monday - TestBasicAuth - INFO : Delete button count is4
+20/05/24 11:14:15 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:14:15 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+20/05/24 11:14:15 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:14:15 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:14:15 PM Monday - TestBasicAuth - INFO : add: 2
+20/05/24 11:14:15 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - TestBasicAuth - INFO : add: 3
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - TestBasicAuth - INFO : add: 4
+20/05/24 11:14:16 PM Monday - TestBasicAuth - INFO : Delete button count is3
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Web Element is displayed
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Web Element is displayed
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Web Element is displayed
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:14:16 PM Monday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+20/05/24 11:14:27 PM Monday - AddorRemoveElements - INFO : Web Element not displayed
+21/05/24 11:57:57 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+21/05/24 11:57:58 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+21/05/24 11:57:58 AM Tuesday - TestBasicAuth - INFO : Add/Remove element link clicked
+21/05/24 11:58:08 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:08 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:18 AM Tuesday - TestBasicAuth - INFO : Delete button count is1
+21/05/24 11:58:34 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+21/05/24 11:58:35 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+21/05/24 11:58:35 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:35 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:35 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:35 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:46 AM Tuesday - AddorRemoveElements - INFO : Web Element not displayed
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //a[text()='Add/Remove Elements'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - TestBasicAuth - INFO : add: 2
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - TestBasicAuth - INFO : add: 3
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Add Element'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - TestBasicAuth - INFO : add: 4
+21/05/24 11:58:53 AM Tuesday - TestBasicAuth - INFO : Delete button count is3
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Web Element is displayed
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Web Element is displayed
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Web Element is displayed
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : WebElement found with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:58:53 AM Tuesday - AddorRemoveElements - INFO : Clicked on WebElement with locator value //button[text()='Delete'] using locatorType xpath
+21/05/24 11:59:04 AM Tuesday - AddorRemoveElements - INFO : Web Element not displayed

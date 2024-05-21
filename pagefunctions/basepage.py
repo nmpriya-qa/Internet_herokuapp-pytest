@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import ElementNotVisibleException, NoSuchElementException
+from selenium.common.exceptions import ElementNotVisibleException, NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.keys import Keys
@@ -41,9 +41,8 @@ class Basepage:
     def waitForElement(self, locatorValue, locatortype="id"):
         webElement = None
         try:
-            locatortype = locatortype.lower()
             locatorByType = self.getlocatortype(locatortype)
-            wait = WebDriverWait(self.driver, 25, poll_frequency=1,
+            wait = WebDriverWait(self.driver, 10, poll_frequency=1,
                                  ignored_exceptions=[ElementNotVisibleException, NoSuchElementException])
             webElement = wait.until(ec.presence_of_element_located((locatorByType, locatorValue)))
             self.log.info(
@@ -55,10 +54,8 @@ class Basepage:
             assert False
         return webElement
 
-
     def click(self, locatorValue, locatortype="id"):
         try:
-            locatortype = locatortype.lower()
             webElement = self.waitForElement(locatorValue, locatortype)
             webElement.click()
             self.log.info(
@@ -72,7 +69,6 @@ class Basepage:
 
     def send_text(self, text, locatorValue, locatortype="id"):
         try:
-            locatortype = locatortype.lower()
             webElement = self.waitForElement(locatorValue, locatortype)
             webElement.click()
             webElement.clear()
@@ -89,7 +85,6 @@ class Basepage:
     def getText(self, locatorValue, locatortype="id"):
         elementText = None
         try:
-            locatortype = locatortype.lower()
             webElement = self.waitForElement(locatorValue, locatortype)
             elementText = webElement.text
             self.log.info(
@@ -113,3 +108,32 @@ class Basepage:
             #     "Unable to get the attribute " + element_attribute + "for the attribute" + attribute)
             print_stack()
         return element_attribute
+
+    def is_element_displayed(self, locatorValue, locatortype):
+
+        try:
+            locatorByType = self.getlocatortype(locatortype)
+            # Explicitly wait for the element to be visible
+            wait = WebDriverWait(self.driver, 10, poll_frequency=1,
+                                 ignored_exceptions=[ElementNotVisibleException, NoSuchElementException])
+            wait.until(ec.visibility_of_element_located((locatorByType, locatorValue)))
+            # If element is found and visible, return True
+            self.log.info("Web Element is displayed")
+            return True
+        except (NoSuchElementException, TimeoutException):
+            self.log.info("Web Element not displayed")
+            print_stack()
+        # If element is not found or not visible, return False
+            return False
+
+    def get_count_of_elements(self, locatorvalue, locatortype):
+        WebElements = None
+        try:
+            locatorbytype = self.getlocatortype(locatortype)
+            WebElements = self.driver.find_elements(locatorbytype, locatorvalue)
+            count = len(WebElements)
+            return count
+            self.log.info("Found " + str(count) + "WebElements for given locator value " + locatorvalue + "and locator type" + locatortype)
+        except:
+            self.log.info("No elements found for locator value:" + locatorvalue + "and locatortype " + locatortype)
+            print_stack()

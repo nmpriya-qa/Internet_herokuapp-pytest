@@ -22,6 +22,7 @@ class Test_checkboxes:
             self.cb.goto_checkbox_page()
             self.cb.select_checkbox1()
             self.driver.save_screenshot('./screenshots/checkbox1.png')
+
         except Exception as e:
             pytest.fail(f"Test failed with exception: {e}")
 
