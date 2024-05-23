@@ -2,21 +2,20 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import ElementNotVisibleException, NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-from selenium.webdriver.common.keys import Keys
 from traceback import print_stack
 
-import utilities.logger as lg
+import utilities.customlogger as lg
 
-class Basepage:
-    log = lg.custom_logger1()
+class BasePage:
+    log = lg.custom_logger()
 
 
     def __init__(self, driver):
         self.driver = driver
 
 
-    def getlocatortype(self, locatortype):
-        locatortype = locatortype.lower()
+    def getlocatortype(self, locatorType):
+        locatortype = locatorType.lower()
         if locatortype == "id":
             return By.ID
         elif locatortype == "name":
@@ -34,7 +33,7 @@ class Basepage:
         elif locatortype == "plink":
             return By.PARTIAL_LINK_TEXT
         else:
-            self.log.error("Locator Type : " + locatortype + " entered is not found")
+            self.log.error(f"Locator Type: {locatortype} entered is not found")
         return False
 
 
@@ -45,11 +44,9 @@ class Basepage:
             wait = WebDriverWait(self.driver, 10, poll_frequency=1,
                                  ignored_exceptions=[ElementNotVisibleException, NoSuchElementException])
             webElement = wait.until(ec.presence_of_element_located((locatorByType, locatorValue)))
-            self.log.info(
-                "WebElement found with locator value " + locatorValue + " using locatorType " + locatortype)
+            self.log.info(f"WebElement found with locator value {locatorValue} using locatorType {locatortype}")
         except:
-            self.log.error(
-                "WebElement not found with locator value " + locatorValue + " using locatorType " + locatortype)
+            self.log.error(f"WebElement not found with locator value {locatorValue} using locatorType {locatortype}")
             print_stack()
             assert False
         return webElement
@@ -58,11 +55,9 @@ class Basepage:
         try:
             webElement = self.waitForElement(locatorValue, locatortype)
             webElement.click()
-            self.log.info(
-                "Clicked on WebElement with locator value " + locatorValue + " using locatorType " + locatortype)
+            self.log.info(f"Clicked on WebElement with locator value {locatorValue} using locatorType {locatortype}")
         except:
-            self.log.error(
-                "Unable to Click on WebElement with locator value " + locatorValue + " using locatorType " + locatortype)
+            self.log.error(f"Unable to click on WebElement with locator value {locatorValue} using locatorType {locatortype}")
             print_stack()
             assert False
 
@@ -73,11 +68,10 @@ class Basepage:
             webElement.click()
             webElement.clear()
             webElement.send_keys(text)
-            self.log.info(
-                "Sent the text " + text + " in WebElement with locator value " + locatorValue + " using locatorType " + locatortype)
+            self.log.info(f"Sent the text {text} in WebElement with locator value {locatorValue} using locatorType {locatortype}")
         except:
-            self.log.error(
-                "Unable to Sent the text " + text + " in WebElement with locator value " + locatorValue + "using locatorType " + locatortype)
+            self.log.error(f"Unable to send the text {text} in WebElement with locator value {locatorValue} using "
+                           f"locatorType {locatortype}")
             print_stack()
             assert False
 
@@ -126,11 +120,21 @@ class Basepage:
         # If element is not found or not visible, return False
             return False
 
-    def get_count_of_elements(self, locatorvalue, locatortype):
-        WebElements = None
+
+    def find_elements(self, locatorvalue, locatortype):
+        Webelements = None
         try:
             locatorbytype = self.getlocatortype(locatortype)
             WebElements = self.driver.find_elements(locatorbytype, locatorvalue)
+            return WebElements
+            self.log.info("WebElements found for given locatorvalue " + locatorvalue + "and locator type" + locatortype)
+        except:
+            self.log.info("No elements found for locator value:" + locatorvalue + "and locatortype " + locatortype)
+            print_stack()
+
+    def get_count_of_elements(self, locatorvalue, locatortype):
+        try:
+            WebElements = self.find_elements(locatorvalue, locatortype)
             count = len(WebElements)
             return count
             self.log.info("Found " + str(count) + "WebElements for given locator value " + locatorvalue + "and locator type" + locatortype)
