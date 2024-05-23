@@ -2,10 +2,10 @@
 
 Automation suite for some of the basic functionalites in "https://the-internet.herokuapp.com/" created with PyTest-Selenium and Page Object Model.
 
-✨ Pre-requisites: 
-Python 3
-Chrome or Firefox webdriver installed in the system.
-Please refer the requirements.txt file to do pip install for package requirements
+Pre-requisites:   
+  1. Python 3
+  2. Chrome or Firefox webdriver installed in the system.
+  3. Please refer the requirements.txt file to do pip install for package requirements
 
 
 Completed Functionalities/ Features:
