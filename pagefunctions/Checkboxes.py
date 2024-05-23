@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
-from pagefunctions.basepage import Basepage
+from pagefunctions.BasePage import BasePage
 
 
-class Checkboxes(Basepage):
+class Checkboxes(BasePage):
     # locators - main page
     __checkboxes_link_text = "Checkboxes"
     # locators - inside checkboxes page

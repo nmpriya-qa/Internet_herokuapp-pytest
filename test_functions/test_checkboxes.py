@@ -1,4 +1,4 @@
-from pagefunctions.checkboxes import Checkboxes
+from pagefunctions.Checkboxes import Checkboxes
 from utilities.readproperties import ReadConfig
 import pytest
 
@@ -17,7 +17,6 @@ class Test_checkboxes:
         """
         try:
             self.driver = setup_browser
-            self.driver.get(self.baseURL)
             self.cb = Checkboxes(self.driver)
             self.cb.goto_checkbox_page()
             self.cb.select_checkbox1()
@@ -38,7 +37,6 @@ class Test_checkboxes:
         """
         try:
             self.driver = setup_browser
-            self.driver.get(self.baseURL)
             self.cb = Checkboxes(self.driver)
             self.cb.goto_checkbox_page()
             self.cb.unselect_checkbox2()

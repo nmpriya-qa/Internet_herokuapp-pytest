@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
-from pagefunctions.basepage import Basepage
+from pagefunctions.BasePage import BasePage
 import utilities.logger as lg
 
 
-class BasicAuth(Basepage):
+class BasicAuth(BasePage):
     log = lg.custom_logger1()
 
     # Main screen locators to access basic auth page

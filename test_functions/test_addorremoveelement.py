@@ -15,7 +15,6 @@ class TestBasicAuth:
         """ Go to basic auth page with valid credentials"""
         try:
             self.driver = setup_browser
-            self.driver.get(self.base_url)
             self.are = AddorRemoveElements(self.driver)
             self.are.go_to_Add_or_remove_element_page()
             self.log.info("Add/Remove element link clicked")

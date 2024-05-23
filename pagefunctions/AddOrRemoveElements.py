@@ -1,8 +1,8 @@
-from pagefunctions.basepage import Basepage
+from pagefunctions.BasePage import BasePage
 import utilities.logger as lg
 
 
-class AddorRemoveElements(Basepage):
+class AddorRemoveElements(BasePage):
     log = lg.custom_logger1()
 
     # Main screen locators to access basic auth page
