@@ -1,10 +1,11 @@
 import pytest
 from selenium import webdriver
-import chromedriver_autoinstaller
+from utilities.readproperties import ReadConfig
 
 @pytest.fixture(scope='function')
 def setup_browser(request):
     browser = request.config.getoption('--browser')
+    application_url = ReadConfig.get_application_url()
 
     if browser == 'chrome':
         # chromedriver_autoinstaller.install()
@@ -17,6 +18,7 @@ def setup_browser(request):
         driver = webdriver.Chrome  # default
     driver.implicitly_wait(10)
     driver.maximize_window()
+    driver.get(application_url)
     yield driver
     driver.quit()
 

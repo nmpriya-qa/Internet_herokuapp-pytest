@@ -16,7 +16,6 @@ class TestBasicAuth:
         """ Go to basic auth page with valid credentials"""
         try:
             self.driver = setup_browser
-            self.driver.get(self.base_url)
             self.ba = BasicAuth(self.driver)
             basic_auth_url = self.ba.basic_auth_login_url(self.valid_user, self.valid_pwd)
             self.driver.execute_script("window.open();")
@@ -33,7 +32,6 @@ class TestBasicAuth:
 
         try:
             self.driver = setup_browser
-            self.driver.get(self.base_url)
             self.ba = BasicAuth(self.driver)
             basic_auth_url = self.ba.basic_auth_login_url(self.invalid_user, self.invalid_pwd)
             self.driver.execute_script("window.open();")
