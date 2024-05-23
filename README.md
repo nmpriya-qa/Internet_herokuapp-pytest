@@ -1,10 +1,26 @@
 👋 End-to-End Automation Testing with Pytest & Selenium
-Automation framework for all types of Web Elements Testing with PyTest-Selenium and Page Object Model. The test examples were performed in the "https://the-internet.herokuapp.com/" website.
 
-✨ Pre-requisites:
-Python3
-At least one of these browsers installed [Chrome, Firefox]
+Automation suite for some of the basic functionalites in "https://the-internet.herokuapp.com/" created with PyTest-Selenium and Page Object Model.
 
-TO DO
-Add reports
-To automate all webelement actions in the website
+✨ Pre-requisites: 
+Python 3
+Chrome or Firefox webdriver installed in the system.
+Please refer the requirements.txt file to do pip install for package requirements
+
+
+Completed Functionalities/ Features:
+  1. General feature - Logs
+  2. Web Page - Add/Remove Elements
+  3. Web Page - Basic Auth
+  4. Web Page - Broken Images
+  5. Web Page - Checkboxes
+
+
+
+Planned Functionalities & Features:
+  1. General Feature - Report Generation
+  2. Web Page - Drag and Drop
+  3. Web Page - Dropdown
+  4. Web Page - File Download
+  5. Web Page - File Upload
+  6. Web Page - Javascript Alerts
