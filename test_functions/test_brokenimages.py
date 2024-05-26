@@ -1,7 +1,5 @@
 import time
-
 import requests
-
 from pagefunctions.BrokenImages import BrokenImages
 import utilities.customlogger as lg
 

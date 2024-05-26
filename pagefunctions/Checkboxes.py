@@ -1,8 +1,10 @@
-from selenium.webdriver.common.by import By
 from pagefunctions.BasePage import BasePage
+import utilities.customlogger as lg
 
 
 class Checkboxes(BasePage):
+    log = lg.custom_logger()
+
     # locators - main page
     __checkboxes_link_text = "Checkboxes"
     # locators - inside checkboxes page
@@ -17,33 +19,33 @@ class Checkboxes(BasePage):
         self.click(self.__checkboxes_link_text, "link")
 
     def select_checkbox1(self):
-        checkbox1 = self.driver.find_element(By.XPATH, self.__checkbox1_xpath)
+        checkbox1 = self.waitForElement(self.__checkbox1_xpath, "xpath")
         if checkbox1.is_selected():
-            print("Checkbox is already selected")
+            self.log.info("Checkbox is already selected")
         else:
             checkbox1.click()
-            print("Checkbox is selected")
+            self.log.info("Checkbox is selected")
 
     def unselect_checkbox1(self):
-        checkbox1 = self.driver.find_element(By.XPATH, self.__checkbox1_xpath)
+        checkbox1 = self.waitForElement(self.__checkbox1_xpath, "xpath")
         if checkbox1.is_selected():
             checkbox1.click()
-            print("Checkbox is unselected")
+            self.log.info("Checkbox is unselected")
         else:
-            print("Checkbox is already unselected")
+            self.log.info("Checkbox is already unselected")
 
     def select_checkbox2(self):
-        checkbox2 = self.driver.find_element(By.XPATH, self.__checkbox2_xpath)
+        checkbox2 = self.waitForElement(self.__checkbox2_xpath, "xpath")
         if checkbox2.is_selected():
-            print("Checkbox is already selected")
+            self.log.info("Checkbox is already selected")
         else:
             checkbox2.click()
-            print("Checkbox is selected")
+            self.log.info("Checkbox is selected")
 
     def unselect_checkbox2(self):
-        checkbox2 = self.driver.find_element(By.XPATH, self.__checkbox2_xpath)
+        checkbox2 = self.waitForElement(self.__checkbox2_xpath, "xpath")
         if checkbox2.is_selected():
             checkbox2.click()
-            print("Checkbox is unselected")
+            self.log.info("Checkbox is unselected")
         else:
-            print("Checkbox is already unselected")
+            self.log.info("Checkbox is already unselected")

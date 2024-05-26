@@ -15,6 +15,7 @@ class ReadConfig:
     def basic_auth_valid_user():
         user = config.get('basic_Authorization', 'valid_user')
         return user
+
     @staticmethod
     def basic_auth_valid_pwd():
         pwd = config.get('basic_Authorization', 'valid_pwd')
@@ -32,5 +33,5 @@ class ReadConfig:
 
     @staticmethod
     def no_of_clicks_add_element():
-        clicks = config.get('Add Element','no_of_clicks')
+        clicks = config.get('Add Element', 'no_of_clicks')
         return int(clicks)

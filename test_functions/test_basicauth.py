@@ -1,10 +1,9 @@
 from pagefunctions.BasicAuth import BasicAuth
 from utilities.readproperties import ReadConfig
 import pytest
-import time
+
 
 class TestBasicAuth:
-    base_url = ReadConfig.get_application_url()
     valid_user = ReadConfig.basic_auth_valid_user()
     valid_pwd = ReadConfig.basic_auth_valid_pwd()
     invalid_user = ReadConfig.basic_auth_invalid_user()

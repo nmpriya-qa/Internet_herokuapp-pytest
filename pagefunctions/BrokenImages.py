@@ -1,9 +1,7 @@
 from pagefunctions.BasePage import BasePage
-import utilities.customlogger as lg
 
 
 class BrokenImages(BasePage):
-    log = lg.custom_logger()
 
     # Main screen locators to access Broken images page
     __broken_images_link_text = "Broken Images"
