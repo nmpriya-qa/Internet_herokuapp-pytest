@@ -27,8 +27,8 @@ class BasicAuth(BasePage):
         return new_url
 
     def get_basic_auth_header_text(self):
-        if self.is_element_displayed(self.basic_auth_header_xpath, "xpath"):
-            text = self.getText(self.basic_auth_header_xpath, "xpath")
+        if self.is_element_displayed(self.__basic_auth_header_xpath, "xpath"):
+            text = self.getText(self.__basic_auth_header_xpath, "xpath")
             return text
         else:
             return False
