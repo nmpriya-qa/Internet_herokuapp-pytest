@@ -1,16 +1,16 @@
 from selenium.webdriver.common.by import By
 from pagefunctions.BasePage import BasePage
-import utilities.logger as lg
+import utilities.customlogger as lg
 
 
 class BasicAuth(BasePage):
-    log = lg.custom_logger1()
+    log = lg.custom_logger()
 
     # Main screen locators to access basic auth page
     __basic_auth_linktext = "Basic Auth"
 
     # Basic auth screen locators
-    basic_auth_header_xpath = "//h3[text()='Basic Auth']"
+    __basic_auth_header_xpath = "//h3[text()='Basic Auth']"
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -27,8 +27,8 @@ class BasicAuth(BasePage):
         return new_url
 
     def get_basic_auth_header_text(self):
-        if self.is_element_displayed(self.basic_auth_header_xpath, "xpath"):
-            text = self.getText(self.basic_auth_header_xpath, "xpath")
+        if self.is_element_displayed(self.__basic_auth_header_xpath, "xpath"):
+            text = self.getText(self.__basic_auth_header_xpath, "xpath")
             return text
         else:
             return False

@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from utilities.readproperties import ReadConfig
 
+
 @pytest.fixture(scope='function')
 def setup_browser(request):
     browser = request.config.getoption('--browser')
@@ -16,6 +17,7 @@ def setup_browser(request):
         print("Launching Chrome browser")
     else:
         driver = webdriver.Chrome  # default
+
     driver.implicitly_wait(10)
     driver.maximize_window()
     driver.get(application_url)

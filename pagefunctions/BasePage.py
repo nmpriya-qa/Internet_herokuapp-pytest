@@ -56,8 +56,8 @@ class BasePage:
             webElement = self.waitForElement(locatorValue, locatortype)
             webElement.click()
             self.log.info(f"Clicked on WebElement with locator value {locatorValue} using locatorType {locatortype}")
-        except:
-            self.log.error(f"Unable to click on WebElement with locator value {locatorValue} using locatorType {locatortype}")
+        except Exception as e:
+            self.log.error(f"Unable to click on WebElement due to {e} with locator value {locatorValue} using locatorType {locatortype}")
             print_stack()
             assert False
 

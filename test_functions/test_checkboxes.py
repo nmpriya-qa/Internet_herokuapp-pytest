@@ -2,7 +2,8 @@ from pagefunctions.Checkboxes import Checkboxes
 from utilities.readproperties import ReadConfig
 import pytest
 
-class Test_checkboxes:
+
+class TestCheckboxes:
     baseURL = ReadConfig.get_application_url()
 
     def test_select_checkbox1(self, setup_browser):
@@ -21,7 +22,6 @@ class Test_checkboxes:
             self.cb.goto_checkbox_page()
             self.cb.select_checkbox1()
             self.driver.save_screenshot('./screenshots/checkbox1.png')
-
         except Exception as e:
             pytest.fail(f"Test failed with exception: {e}")
 
@@ -43,4 +43,3 @@ class Test_checkboxes:
             self.driver.save_screenshot('./screenshots/checkbox2.png')
         except Exception as e:
             pytest.fail(f"Test failed with exception: {e}")
-
