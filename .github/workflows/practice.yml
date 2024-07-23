@@ -24,4 +24,4 @@ jobs:
     
       - name: Run pytest
         run: |
-          pytest --maxfail=5  # Adjust pytest command as per your needs
+          pytest --browser='chrome' --maxfail=5  # Adjust pytest command as per your needs
