@@ -1,5 +1,7 @@
 import inspect
 import logging
+import os, os.path
+
 
 def custom_logger():
     # 1.) This is used to get the  class / method name from where this customLogger method is called
@@ -12,6 +14,8 @@ def custom_logger():
     logger.setLevel(logging.DEBUG)
 
     # 4.) Create the fileHandler to save the logs in the file
+    if not os.path.exists("./Logs/"):
+        os.makedirs("./Logs/")
     file_handler = logging.FileHandler("./Logs/log.log", mode='a')
 
     # 5.) Set the logLevel for file_handler
