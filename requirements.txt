@@ -1,5 +1,5 @@
 pytest
-selenium
+selenium==4.23.0
 pytest-html
 pytest-metadata
 requests
