@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  nightly:
+  Regression:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Adjust based on your requirements
+          pip install -r requirements.txt  
     
       - name: Run pytest
         run: |
-          pytest --maxfail=5  # Adjust pytest command as per your needs
+          pytest
